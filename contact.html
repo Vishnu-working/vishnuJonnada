@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="working.png" type="image/x-icon">
+</head>
+<body>
+    <div class="portfolio-container">
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Left Container -->
+        <div class="left-container">
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div class="content">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>     
+        </div>
+
+        <div class="right-container"></div>
+
+        <!-- Map Section -->
+        <div class="design">
+            <!-- Buttons over the map -->
+            <div class="quick-links">
+                <button onclick="window.location.href='https://wa.me/1234567890';" class="quick-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </button>
+                <button onclick="window.location.href='tel:+1234567890';" class="quick-btn">
+                    <i class="fa-solid fa-phone"></i> Call
+                </button>
+                <button onclick="window.location.href='mailto:someone@example.com';" class="quick-btn">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </button>
+            </div>
+
+            <div class="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.6984393161583!2d81.67407967383298!3d16.74189188403937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37c81db07fc84f%3A0x9c868703c4d76d!2sGrand%20Gosthani%20Apartments%2C%20Venkatarayapuram%2C%20Tanuku%2C%20Andhra%20Pradesh%20534211!5e0!3m2!1sen!2sin!4v1727330285662!5m2!1sen!2sin"
+                width="450"
+                height="350"
+                style="border:0; display: block; margin: 0 auto;"
+                allowfullscreen=""
+                loading="lazy"></iframe>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
